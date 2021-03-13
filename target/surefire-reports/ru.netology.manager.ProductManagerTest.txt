@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: ru.netology.manager.ProductManagerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.145 s <<< FAILURE! - in ru.netology.manager.ProductManagerTest
+shouldSearchBySomeBookName  Time elapsed: 0.069 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Book is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchBySomeBookName(ProductManagerTest.java:71)
+
+shouldSearchBySmartphoneName  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Smartphone is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchBySmartphoneName(ProductManagerTest.java:52)
+
+shouldSearchByBookName  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Book is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchByBookName(ProductManagerTest.java:44)
+
+shouldSearchBySomeSmartphoneName  Time elapsed: 0 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Smartphone is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchBySomeSmartphoneName(ProductManagerTest.java:100)
+
+shouldSearchBySomeBookAuthor  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Book is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchBySomeBookAuthor(ProductManagerTest.java:61)
+
+shouldSearchByBookAuthor  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Book is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchByBookAuthor(ProductManagerTest.java:28)
+
+shouldSearchBySomeSmartphoneManufacturer  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Smartphone is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchBySomeSmartphoneManufacturer(ProductManagerTest.java:91)
+
+shouldSearchBySmartphoneManufacturer  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ArrayStoreException: arraycopy: source type ru.netology.domain.Smartphone is not an array
+	at ru.netology.manager.ProductManagerTest.shouldSearchBySmartphoneManufacturer(ProductManagerTest.java:36)
+
