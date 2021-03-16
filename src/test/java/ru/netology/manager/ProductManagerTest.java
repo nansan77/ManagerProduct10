@@ -19,7 +19,7 @@ class ProductManagerTest {
     Smartphone fourth = new Smartphone(5, "Bereza", 100, "Our1");
     Smartphone fifth = new Smartphone(6, "Topol", 200, "Our2");
     Smartphone sixth1 = new Smartphone(7, "Dub", 300, "Our3");
-    Smartphone sixth2 = new Smartphone(8, "Lipa", 500, "Our3");
+    Smartphone sixth2 = new Smartphone(8, "Lipa", 500, "Our5");
 
     @Test
     public void shouldSearchByBookAuthor() {
